@@ -19,17 +19,17 @@ Desde allí, puede organizar los datos en niveles y regresar fácilmente a la pl
 El proceso de niveles en la nube incluye estos procesos:
 
 * Implementar un agente de consola
-* Descubra el cluster
+* Descubre el cluster
 * Configurar la organización en niveles en la nube
 
 
 .Pasos
-. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. link:../get-started/capacity-login.html["Inicie sesión en la NetApp Console"] .
 . Seleccione *Evaluar opciones de almacenamiento* para el activo.
 . Seleccione *Datos fríos de nivel*.
 . Los siguientes pasos dependen de si ya tiene el agente de consola implementado y el clúster detectado:
 +
-** Si necesita implementar el agente de la consola, consulte la documentación de la consola de NetApp que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Cómo crear el agente de consola"^] .  De lo contrario, si ya implementó el agente de consola, la opción para implementar el agente no aparece.
+** Si necesita implementar el agente de la consola, consulte la documentación de la NetApp Console que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Cómo crear el agente de consola"^] .  De lo contrario, si ya implementó el agente de consola, la opción para implementar el agente no aparece.
 ** Si el servicio necesita descubrir el clúster, consulte https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Descubra los clústeres ONTAP locales"^] .  De lo contrario, si ya se ha descubierto el clúster, la opción para descubrir el clúster no aparece.
 +
 La planificación del ciclo de vida inicia la conexión con NetApp Cloud Tiering, otro producto.

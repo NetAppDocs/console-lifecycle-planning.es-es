@@ -39,7 +39,7 @@ La evaluación incluye los siguientes pasos:
 
 
 .Pasos
-. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. link:../get-started/capacity-login.html["Inicie sesión en la NetApp Console"] .
 . Seleccione *Actualización técnica*.
 +
 image:tech-refresh.png["Página de actualización tecnológica que muestra los candidatos para la actualización tecnológica"]
@@ -79,7 +79,7 @@ image:tech-refresh-view-recommendations2.png["Ver la página de recomendaciones 
 . Realice una o ambas de las siguientes acciones:
 +
 .. Para descargar un PDF de las recomendaciones, seleccione *Descargar*.
-.. Para conectarse con un representante de ventas de NetApp con respecto a las recomendaciones, seleccione *Contactar ventas*.  Una página web muestra las opciones que puede elegir para ponerse en contacto con un representante de ventas de NetApp .
+.. Para conectarse con un representante de ventas de NetApp con respecto a las recomendaciones, seleccione *Contactar ventas*.  Una página web muestra opciones que puede elegir para ponerse en contacto con un representante de ventas de NetApp .
 
 
 . Seleccione *Finalizar*.
@@ -92,7 +92,7 @@ image:tech-refresh-view-recommendations2.png["Ver la página de recomendaciones 
 Es posible que desees revisar las evaluaciones de actualización tecnológica que ya realizaste y revisar las recomendaciones nuevamente.
 
 .Pasos
-. Desde el panel de navegación izquierdo de la consola de NetApp , seleccione *Gobernanza* > *Planificación del ciclo de vida* > *Actualización tecnológica*.
+. Desde el panel de navegación izquierdo de la NetApp Console , seleccione *Gobernanza* > *Planificación del ciclo de vida* > *Actualización tecnológica*.
 . Seleccione la pestaña *Candidatos para actualización tecnológica*, que enumera todos los sistemas en los que realizó una evaluación de actualización tecnológica.  Luego, desde el menú Acciones en la fila de ese sistema, seleccione ver las evaluaciones y recomendaciones para ese sistema.
 . En la página Evaluar opciones de actualización, seleccione *Ver recomendación*.
 . Ver las recomendaciones de actualización.
@@ -110,7 +110,7 @@ Si ha enviado registros de AutoSupport a NetApp en los últimos 90 días, NetApp
 Puede incluir o excluir cargas de trabajo específicas de la simulación.  También puede agregar cargas de trabajo si no aparecen en la lista de cargas de trabajo existente.
 
 .Pasos
-. Desde el panel de navegación izquierdo de la consola de NetApp , seleccione *Gobernanza* > *Planificación del ciclo de vida* > *Actualización tecnológica*.
+. Desde el panel de navegación izquierdo de la NetApp Console , seleccione *Gobernanza* > *Planificación del ciclo de vida* > *Actualización tecnológica*.
 +
 image:tech-refresh-list2.png["Página de actualización técnica que muestra la pestaña de candidatos para la actualización técnica"]
 
@@ -166,7 +166,7 @@ Las recomendaciones de la simulación de carga de trabajo se envían a un repres
 Puede agregar una carga de trabajo que no esté ya incluida en la simulación de carga de trabajo.
 
 .Pasos
-. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. link:../get-started/capacity-login.html["Inicie sesión en la NetApp Console"] .
 . Seleccione *Actualización técnica*.
 +
 image:tech-refresh-list2.png["Página de actualización técnica que muestra la pestaña de candidatos para la actualización técnica"]

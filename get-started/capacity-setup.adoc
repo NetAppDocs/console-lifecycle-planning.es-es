@@ -15,7 +15,7 @@ summary: Para utilizar la planificación del ciclo de vida, realice unos pocos p
 Para utilizar la planificación del ciclo de vida, realice unos pocos pasos para configurarla.
 
 * Revisarlink:../get-started/prerequisites.html["prerrequisitos"] para garantizar que su sistema esté listo.
-* Cree un agente de consola en la consola de NetApp .
+* Cree un agente de consola en la NetApp Console.
 * Descubra el clúster en la consola.
 
 
@@ -25,15 +25,15 @@ De manera similar, puede descubrir el clúster con anticipación usando la conso
 
 
 
-== Crear un agente de consola en la consola de NetApp
+== Crear un agente de consola en la NetApp Console
 
-Un agente de consola de NetApp incluye credenciales para las máquinas de NetApp ONTAP .
+Un agente de NetApp Console incluye credenciales para las máquinas de NetApp ONTAP .
 
-Para crear un agente de consola en la consola antes de usar el servicio, consulte la documentación de la consola que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Cómo crear un agente de consola de NetApp"^] .
+Para crear un agente de consola en la consola antes de usar el servicio, consulte la documentación de la consola que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Cómo crear un agente de NetApp Console"^] .
 
 
 
-== Descubra el clúster en la consola de NetApp
+== Descubra el clúster en la NetApp Console
 
 Parte de la configuración implica identificar el nombre del clúster, la IP, el nombre de usuario y la contraseña dentro de la consola.
 

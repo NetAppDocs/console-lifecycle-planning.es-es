@@ -14,11 +14,11 @@ summary: Comience con la planificación del ciclo de vida de NetApp verificando 
 [role="lead"]
 Comience con la planificación del ciclo de vida verificando la preparación de su entorno operativo, inicio de sesión y acceso a la red.  Para utilizar la planificación del ciclo de vida, debe asegurarse de que su entorno cumpla con todos los requisitos.
 
-* Su entorno debe cumplir con todos los requisitos de la consola de NetApp , incluido el inicio de sesión y el acceso a la red desde un navegador web.
+* Su entorno debe cumplir con todos los requisitos de la NetApp Console, incluido el inicio de sesión y el acceso a la red desde un navegador web.
 +
-Consulte la https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de la consola de NetApp"^] y https://docs.netapp.com/us-en/bluexp-setup-admin/reference-networking-saas-console.html["Información de red de la consola de NetApp"^] .
+Consulte la https://docs.netapp.com/us-en/bluexp-setup-admin/task-quick-start-standard-mode.html["Inicio rápido de la NetApp Console"^] y https://docs.netapp.com/us-en/bluexp-setup-admin/reference-networking-saas-console.html["Información de red de la NetApp Console"^] .
 
 * Es necesario tener credenciales de acceso a los clústeres.
-* Si bien no es un requisito, es útil que el agente de la consola de NetApp esté instalado y habilitado y que se detecte el sistema ONTAP .  De lo contrario, el servicio lo guiará a través de esos procesos.
+* Si bien no es un requisito, es útil que el agente de la NetApp Console esté instalado y habilitado y que se detecte el sistema ONTAP .  De lo contrario, el servicio lo guiará a través de esos procesos.
 * Si planea almacenar datos fríos en la nube, asegúrese de que el clúster sea elegible según la licencia.
 

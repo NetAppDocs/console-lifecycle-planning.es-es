@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: get-started/capacity-login.html 
 keywords: bluexp login, capacity planning log in, economic efficiency,lifecycle planning 
-summary: Comience con la planificación del ciclo de vida accediendo a ella en la consola de NetApp . 
+summary: Comience con la planificación del ciclo de vida accediendo a ella en la NetApp Console. 
 ---
 = Planificación del ciclo de vida del acceso
 :hardbreaks:
@@ -12,15 +12,15 @@ summary: Comience con la planificación del ciclo de vida accediendo a ella en l
 
 
 [role="lead"]
-Utilice la consola de NetApp para acceder a la planificación del ciclo de vida.
+Utilice la NetApp Console para acceder a la planificación del ciclo de vida.
 
 Para iniciar sesión en la consola, puede utilizar sus credenciales del sitio de soporte de NetApp . https://docs.netapp.com/us-en/bluexp-setup-admin/task-logging-in.html["Obtenga más información sobre cómo iniciar sesión"^] .
 
 
-TIP: Puede acceder a esta función a través de la consola de NetApp (*Almacenamiento* > *Planificación del ciclo de vida*) o a través de Digital Advisor (*Panel de control* > *Widget de planificación* > *Actualización tecnológica*).
+TIP: Puede acceder a esta función a través de la NetApp Console (*Almacenamiento* > *Planificación del ciclo de vida*) o a través de Digital Advisor (*Panel de control* > *Widget de planificación* > *Actualización tecnológica*).
 
 .Pasos
-. Abra un navegador web y vaya a https://console.netapp.com/["la consola de NetApp"^] .
+. Abra un navegador web y vaya a https://console.netapp.com/["la NetApp Console"^] .
 +
 Aparece la página de inicio de sesión de la consola.
 

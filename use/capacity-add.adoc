@@ -19,7 +19,7 @@ Una de las recomendaciones podría ser agregar capacidad agregando estantes a su
 Puede enviar fácilmente la recomendación como una solicitud de cotización o una solicitud de opciones alternativas al equipo de ventas de NetApp .
 
 .Pasos
-. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. link:../get-started/capacity-login.html["Inicie sesión en la NetApp Console"] .
 . Seleccione *Planificación de capacidad*.
 . Seleccione *Evaluar opciones de almacenamiento* para el activo.
 . Seleccione *Agregar capacidad*.

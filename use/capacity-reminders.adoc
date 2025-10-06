@@ -15,7 +15,7 @@ summary: En lugar de agregar capacidad o clasificar datos fríos, puede elegir n
 En lugar de agregar capacidad o clasificar datos fríos, en la planificación del ciclo de vida puede elegir no realizar ninguna acción en este momento y configurar recordatorios para volver a verificar después de 30, 60 o 90 días.
 
 .Pasos
-. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. link:../get-started/capacity-login.html["Inicie sesión en la NetApp Console"] .
 . Seleccione *Evaluar opciones de almacenamiento* para el activo.
 . Seleccione *No es necesaria ninguna acción*.
 . Elija cuándo desea que se le notifique nuevamente sobre un posible problema de baja capacidad: 30, 60 o 90 días.

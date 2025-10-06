@@ -16,15 +16,15 @@ La planificación del ciclo de vida evalúa sus activos de almacenamiento con ba
 
 
 
-== Consola de NetApp
+== NetApp Console
 
-Se puede acceder a la planificación del ciclo de vida a través de la consola de NetApp .
+Se puede acceder a la planificación del ciclo de vida a través de la NetApp Console.
 
-La consola de NetApp proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
+La NetApp Console proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
 
 No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
 
-Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Consola de NetApp"] .
+Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["NetApp Console"] .
 
 
 
@@ -61,4 +61,4 @@ Si decide almacenar datos fríos en la nube, deberá consultar con su proveedor 
 
 == Acceso
 
-Puede acceder a esta función a través de la consola de NetApp (*Almacenamiento* > *Planificación del ciclo de vida*) o a través de Active IQ Digital Advisor (también conocido como Digital Advisor) (*Panel de control* > *Widget de planificación* > *Actualización tecnológica*).
+Puede acceder a esta función a través de la NetApp Console (*Almacenamiento* > *Planificación del ciclo de vida*) o a través de Active IQ Digital Advisor (también conocido como Digital Advisor) (*Panel de control* > *Widget de planificación* > *Actualización tecnológica*).
