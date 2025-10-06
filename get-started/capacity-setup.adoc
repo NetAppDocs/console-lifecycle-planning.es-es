@@ -1,0 +1,40 @@
+---
+sidebar: sidebar 
+permalink: get-started/capacity-setup.html 
+keywords: bluexp, lifecycle planning remediate, lifecycle planning, capacity planning, set reminders for capacity,lifecycle planning 
+summary: Para utilizar la planificación del ciclo de vida, realice unos pocos pasos para configurarla. 
+---
+= Configurar la planificación del ciclo de vida
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+Para utilizar la planificación del ciclo de vida, realice unos pocos pasos para configurarla.
+
+* Revisarlink:../get-started/prerequisites.html["prerrequisitos"] para garantizar que su sistema esté listo.
+* Cree un agente de consola en la consola de NetApp .
+* Descubra el clúster en la consola.
+
+
+Puede crear un agente de consola directamente en la consola y utilizar ese agente más tarde en la BlueXP economic efficiency.  O bien, puede crear el agente de consola en medio del proceso de remediación de capacidad.
+
+De manera similar, puede descubrir el clúster con anticipación usando la consola o durante el proceso de remediación de capacidad.
+
+
+
+== Crear un agente de consola en la consola de NetApp
+
+Un agente de consola de NetApp incluye credenciales para las máquinas de NetApp ONTAP .
+
+Para crear un agente de consola en la consola antes de usar el servicio, consulte la documentación de la consola que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Cómo crear un agente de consola de NetApp"^] .
+
+
+
+== Descubra el clúster en la consola de NetApp
+
+Parte de la configuración implica identificar el nombre del clúster, la IP, el nombre de usuario y la contraseña dentro de la consola.
+
+Para obtener instrucciones antes de utilizar la planificación del ciclo de vida, consulte https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Descubra los clústeres ONTAP locales"^] .

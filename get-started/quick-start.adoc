@@ -1,0 +1,33 @@
+---
+sidebar: sidebar 
+permalink: get-started/quick-start.html 
+keywords: how to get started with NetApp lifecycle planning, economic efficiency, bluexp,lifecycle planning quick start, capacity planning 
+summary: Comience a utilizar el servicio de planificación del ciclo de vida de NetApp en unos pocos pasos. 
+---
+= Inicio rápido para la planificación del ciclo de vida
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+A continuación se presenta una descripción general de los pasos necesarios para comenzar con la planificación del ciclo de vida. Los enlaces dentro de cada paso lo llevarán a una página que proporciona más detalles.
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["1"]Revisar los prerrequisitos
+[role="quick-margin-para"]
+link:../get-started/prerequisites.html["Asegúrese de que su entorno cumpla estos requisitos"] .
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Dos"]Configurar la planificación del ciclo de vida
+[role="quick-margin-para"]
+link:../get-started/capacity-setup.html["Pasos completos para configurar la planificación del ciclo de vida"] .
+
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-3.png["Tres"]¿Que sigue?
+[role="quick-margin-para"]
+Después de configurar la planificación del ciclo de vida, esto es lo que puede hacer a continuación.
+
+[role="quick-margin-list"]
+* link:../use/capacity-review-status.html["Revisar el estado de la capacidad"] .
+* link:../use/capacity-tier-data.html["Almacene datos fríos en la nube para liberar espacio"] .
+* link:../use/capacity-reminders.html["Opcionalmente, configure recordatorios para volver a verificar"] .
+

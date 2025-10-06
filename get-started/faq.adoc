@@ -1,0 +1,31 @@
+---
+sidebar: sidebar 
+permalink: get-started/faq.html 
+keywords: economic efficiency faq, lifecycle planning frequently asked questions 
+summary: Estas preguntas frecuentes pueden ayudarte si simplemente buscas una respuesta rápida a una pregunta. 
+---
+= Preguntas frecuentes sobre la planificación del ciclo de vida
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/
+
+
+[role="lead"]
+Estas preguntas frecuentes pueden ser útiles si simplemente busca una respuesta rápida a una pregunta sobre la planificación del ciclo de vida.
+
+
+
+== Acceso a la planificación del ciclo de vida
+
+*¿Cuál es la URL de planificación del ciclo de vida?*
+
+Para la URL, en un navegador, ingrese: https://console.netapp.com/["https://console.netapp.com/"^] para acceder a la consola de NetApp .
+
+
+
+== Licencias
+
+¿Necesita una licencia para utilizar la planificación del ciclo de vida?
+
+No se requiere un archivo de licencia de NetApp (NLF).

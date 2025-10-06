@@ -1,0 +1,64 @@
+---
+sidebar: sidebar 
+permalink: get-started/intro.html 
+keywords: how NetApp lifecycle planning works, what is lifecycle planning, bluexp, hardware refresh, technology refresh, capacity, forecasted capacity, storage, forecast, economic efficiency 
+summary: La planificación del ciclo de vida de NetApp identifica clústeres con baja capacidad actual o prevista y brinda recomendaciones sobre la organización en niveles de datos. 
+---
+= Aprenda sobre la planificación del ciclo de vida
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/get-started/
+
+
+[role="lead"]
+La planificación del ciclo de vida evalúa sus activos de almacenamiento con baja capacidad actual o prevista y brinda recomendaciones sobre opciones de niveles de datos que satisfacen las necesidades de su negocio.
+
+
+
+== Consola de NetApp
+
+Se puede acceder a la planificación del ciclo de vida a través de la consola de NetApp .
+
+La consola de NetApp proporciona una gestión centralizada de los servicios de datos y almacenamiento de NetApp en entornos locales y en la nube a nivel empresarial. La consola es necesaria para acceder y utilizar los servicios de datos de NetApp . Como interfaz de administración, le permite administrar muchos recursos de almacenamiento desde una sola interfaz. Los administradores de la consola pueden controlar el acceso al almacenamiento y los servicios para todos los sistemas dentro de la empresa.
+
+No necesita una licencia o suscripción para comenzar a usar NetApp Console y solo incurre en cargos cuando necesita implementar agentes de Console en su nube para garantizar la conectividad con sus sistemas de almacenamiento o servicios de datos de NetApp . Sin embargo, algunos servicios de datos de NetApp accesibles desde la consola requieren licencia o suscripción.
+
+Obtenga más información sobre el https://docs.netapp.com/us-en/bluexp-setup-admin/concept-overview.html["Consola de NetApp"] .
+
+
+
+== ¿Qué se puede hacer con la planificación del ciclo de vida?
+
+La planificación del ciclo de vida puede ayudarle a lograr los siguientes objetivos.
+
+*Información de capacidad*
+
+* Identifique los activos de almacenamiento en su entorno que muestran baja capacidad.
+* Revisar los activos para determinar la capacidad actual y prevista.
+
+
+
+
+== Beneficios de la planificación del ciclo de vida
+
+La planificación del ciclo de vida ofrece los siguientes beneficios:
+
+* Identifica sistemas que se acercan a eventos del ciclo de vida para ayudarlo a planificar una actualización tecnológica.
+* Ofrece recomendaciones de un asesor confiable para abordar problemas de capacidad en su entorno.
+* Reduce el tiempo empleado en la planificación de almacenamiento adicional
+
+
+
+
+== Costo
+
+NetApp no ​​le cobra por utilizar la planificación del ciclo de vida.
+
+Si decide almacenar datos fríos en la nube, deberá consultar con su proveedor de nube para conocer los cargos aplicables.
+
+
+
+== Acceso
+
+Puede acceder a esta función a través de la consola de NetApp (*Almacenamiento* > *Planificación del ciclo de vida*) o a través de Active IQ Digital Advisor (también conocido como Digital Advisor) (*Panel de control* > *Widget de planificación* > *Actualización tecnológica*).

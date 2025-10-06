@@ -1,0 +1,52 @@
+---
+sidebar: sidebar 
+permalink: use/capacity-tier-data.html 
+keywords: economic efficiency remediate, economic efficiency, capacity planning, add capacity, lifecycle planning 
+summary: La planificación del ciclo de vida proporciona recomendaciones basadas en el crecimiento previsto de los datos.  Puedes aceptar el pronóstico o ingresar el tuyo propio.  En base a esto, el servicio presenta recomendaciones que satisfacen el crecimiento de capacidad proyectado y son las más óptimas para la configuración del activo.  Una de las recomendaciones podría ser almacenar los datos fríos en la nube para liberar capacidad.  Esta recomendación inicia la conexión a NetApp Cloud Tiering, otro producto. 
+---
+= Almacene los datos fríos en la nube y libere el almacenamiento identificado mediante la planificación del ciclo de vida
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+La planificación del ciclo de vida proporciona recomendaciones basadas en el crecimiento previsto de los datos.  Puedes aceptar el pronóstico o ingresar el tuyo propio.  En base a esto, la planificación del ciclo de vida presenta recomendaciones que satisfacen el crecimiento de la capacidad proyectada y son las más óptimas para la configuración de los activos de almacenamiento.  Una de las recomendaciones podría ser almacenar los datos fríos en la nube para liberar capacidad.  Esta recomendación inicia la conexión a NetApp Cloud Tiering, otro producto.
+
+Desde allí, puede organizar los datos en niveles y regresar fácilmente a la planificación del ciclo de vida para tomar medidas en otros sistemas.
+
+El proceso de niveles en la nube incluye estos procesos:
+
+* Implementar un agente de consola
+* Descubra el cluster
+* Configurar la organización en niveles en la nube
+
+
+.Pasos
+. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. Seleccione *Evaluar opciones de almacenamiento* para el activo.
+. Seleccione *Datos fríos de nivel*.
+. Los siguientes pasos dependen de si ya tiene el agente de consola implementado y el clúster detectado:
++
+** Si necesita implementar el agente de la consola, consulte la documentación de la consola de NetApp que describe https://docs.netapp.com/us-en/bluexp-setup-admin/concept-connectors.html["Cómo crear el agente de consola"^] .  De lo contrario, si ya implementó el agente de consola, la opción para implementar el agente no aparece.
+** Si el servicio necesita descubrir el clúster, consulte https://docs.netapp.com/us-en/bluexp-ontap-onprem/task-discovering-ontap.html["Descubra los clústeres ONTAP locales"^] .  De lo contrario, si ya se ha descubierto el clúster, la opción para descubrir el clúster no aparece.
++
+La planificación del ciclo de vida inicia la conexión con NetApp Cloud Tiering, otro producto.
+
++
+image:capacity-tier-cold-data.png["Página de capacidad que muestra la opción de organizar por niveles los datos fríos"]
+
+
+
+. Seleccione *Implementar agente*.
+. Elija un proveedor de nube y seleccione *Continuar*.
+. Seleccione *Continuar* o *Ir a implementación*.
++
+Después de implementar el agente de consola, NetApp Cloud Tiering descubre el clúster, si aún no lo había descubierto.
+
+. Una vez descubierto el clúster, configure los niveles.
++
+Para obtener más detalles sobre los niveles, consulte https://docs.netapp.com/us-en/bluexp-tiering/index.html["Documentación de NetApp Cloud Tiering"^] .
+
+

@@ -1,0 +1,42 @@
+---
+sidebar: sidebar 
+permalink: use/capacity-review-status.html 
+keywords: lifecycle planning remediate, lifecycle planning, capacity planning, forecast, capacity, storage, economic efficiency 
+summary: 'Si sus clústeres están actualmente por debajo o se prevé que estén por debajo del umbral del 70 % de su capacidad, la planificación del ciclo de vida los identifica como recursos de baja capacidad y le avisa.' 
+---
+= Revisar el estado de la capacidad en la planificación del ciclo de vida
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Si los activos de almacenamiento en su entorno están actualmente por debajo o se prevé que estén por debajo del umbral del 90 % de su capacidad, la planificación del ciclo de vida los identifica como recursos de baja capacidad y le avisa.  Además, la planificación del ciclo de vida proporciona recomendaciones sobre si es necesario organizar los datos en niveles.
+
+Puede revisar los siguientes tipos de datos para ayudar a resolver problemas de capacidad.
+
+* Plataforma
+* País donde se encuentra el activo
+* Capacidad actual y prevista por mes
+
+
+.Pasos
+. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. Desde la navegación izquierda, seleccione *Capacidad*.
++
+image:capacity-page.png["Página de capacidad que muestra una lista de sistemas"]
+
+. Desde la página Capacidad, seleccione un sistema.
++
+image:capacity-evaluate-storage-capacity.png["Página de capacidad en la planificación del ciclo de vida"]
+
+. Seleccione *Evaluar opciones de almacenamiento* para el activo.
+. Elija una de las opciones:
++
+** *Mejores prácticas*: Continúe haciendo clic en el enlace para ver las mejores prácticas.
+** *Datos de nivel frío*: Continuarlink:../use/capacity-tier-data.html["Agrupar datos fríos en almacenamiento en la nube y liberar espacio de almacenamiento"] .
+** *No es necesario realizar ninguna acción*: Continuarlink:../use/capacity-reminders.html["seleccionar ninguna acción y configurar recordatorios para volver a verificar"] .
+
+
+

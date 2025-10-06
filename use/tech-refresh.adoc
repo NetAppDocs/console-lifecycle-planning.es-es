@@ -1,0 +1,198 @@
+---
+sidebar: sidebar 
+permalink: use/tech-refresh.html 
+keywords: lifecycle planning, tech refresh, technology update, hardware assessment 
+summary: Si tiene activos existentes y desea realizar una evaluación para identificar si se recomienda una actualización tecnológica, puede utilizar la opción de actualización tecnológica de la planificación del ciclo de vida.  El proceso realiza una evaluación de sus cargas de trabajo y activos actuales y le brinda recomendaciones sobre cómo proceder.  O bien, puede probar una simulación de carga de trabajo. 
+---
+= Evaluar una actualización tecnológica mediante la planificación del ciclo de vida
+:hardbreaks:
+:allow-uri-read: 
+:icons: font
+:imagesdir: ../media/use/
+
+
+[role="lead"]
+Si tiene activos existentes y desea determinar si se recomienda una actualización tecnológica, puede utilizar las opciones de Actualización tecnológica de Planificación del ciclo de vida.  Puede revisar una evaluación breve de sus cargas de trabajo actuales y obtener recomendaciones o, si ha enviado registros de AutoSupport a NetApp en los últimos 90 días, el servicio puede proporcionar una simulación de carga de trabajo para ver cómo funcionan sus cargas de trabajo en hardware nuevo.
+
+* <<Realice una evaluación de actualización>>
+* <<Simular cargas de trabajo en nuevo hardware>>
+
+
+Los sistemas se consideran candidatos para una actualización tecnológica en función de lo siguiente:
+
+* Acercándose el final del contrato de soporte técnico
+* Acercándose el final del ciclo de vida del hardware
+
+
+
+TIP: Puede acceder a esta función a través de la planificación del ciclo de vida o a través de Digital Advisor.
+
+
+
+== Realice una evaluación de actualización
+
+La evaluación incluye los siguientes pasos:
+
+* Seleccione los sistemas que desea evaluar.
+* Especifique sus requisitos con respecto a entornos, tipos de carga de trabajo, capacidad, rendimiento y presupuesto.
+* Vea las recomendaciones sobre productos y servicios en la nube adecuados que podrían mejorar el rendimiento en su entorno.
+
+
+.Pasos
+. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. Seleccione *Actualización técnica*.
++
+image:tech-refresh.png["Página de actualización tecnológica que muestra los candidatos para la actualización tecnológica"]
+
+. Consulte la pestaña *Candidatos para actualización tecnológica*, que enumera todos los sistemas que podrían beneficiarse de una actualización tecnológica.
+. Seleccione el sistema en el que desea obtener una evaluación.
+. En la columna Acciones, seleccione *Evaluar actualización*.
++
+image:tech-refresh-systems.png["Sistemas que se incluirán en la actualización tecnológica"]
+
+. Seleccione el sistema o sistemas en los que desea realizar la evaluación y seleccione *Siguiente*.
+. Definir los requisitos:
++
+.. *Entornos*: Seleccione los tipos de entorno que desee: nube pública, nube híbrida o local.
++
+image:tech-refresh-requirements-environments4.png["Página de requisitos de actualización tecnológica que muestra las opciones de entorno"]
+
+.. *Cargas de trabajo*: seleccione todos los tipos de cargas de trabajo que desea manejar: aplicaciones críticas para el negocio, análisis y computación de alto rendimiento, lagos de datos y flujos de trabajo de medios, almacenamiento secundario o cargas de trabajo menos críticas.
++
+image:tech-refresh-requirements-workload-tiles.png["Opciones de carga de trabajo"]
+
+.. *Capacidad*: Ingrese los requisitos de capacidad en TiB, deslice el control deslizante hasta el valor o coloque el cursor sobre el valor en el control deslizante y seleccione *Siguiente*.
+.. *Rendimiento*: seleccione los aspectos de rendimiento que desea poder gestionar: latencia más baja, IOPS más alto, cargas de trabajo mixtas o rendimiento no importante y seleccione *Siguiente*.
++
+image:tech-refresh-requirements-performance-tiles.png["Opciones de rendimiento"]
+
+.. *Presupuesto*: Ingrese un presupuesto en dólares estadounidenses, deslice el control deslizante hasta el valor o coloque el cursor sobre el valor en el control deslizante y seleccione *Siguiente*.
++
+Aparece un conjunto de recomendaciones en diferentes pestañas para las opciones que elijas.
+
+
+
+. Revise las recomendaciones.
++
+image:tech-refresh-view-recommendations2.png["Ver la página de recomendaciones de evaluación de actualización"]
+
+. Realice una o ambas de las siguientes acciones:
++
+.. Para descargar un PDF de las recomendaciones, seleccione *Descargar*.
+.. Para conectarse con un representante de ventas de NetApp con respecto a las recomendaciones, seleccione *Contactar ventas*.  Una página web muestra las opciones que puede elegir para ponerse en contacto con un representante de ventas de NetApp .
+
+
+. Seleccione *Finalizar*.
+
+
+
+
+== Ver evaluaciones de actualización tecnológica ya realizadas
+
+Es posible que desees revisar las evaluaciones de actualización tecnológica que ya realizaste y revisar las recomendaciones nuevamente.
+
+.Pasos
+. Desde el panel de navegación izquierdo de la consola de NetApp , seleccione *Gobernanza* > *Planificación del ciclo de vida* > *Actualización tecnológica*.
+. Seleccione la pestaña *Candidatos para actualización tecnológica*, que enumera todos los sistemas en los que realizó una evaluación de actualización tecnológica.  Luego, desde el menú Acciones en la fila de ese sistema, seleccione ver las evaluaciones y recomendaciones para ese sistema.
+. En la página Evaluar opciones de actualización, seleccione *Ver recomendación*.
+. Ver las recomendaciones de actualización.
++
+image:tech-refresh-view-recommendations2.png["Ver la página de recomendaciones de evaluación de actualización"]
+
+
+
+
+
+== Simular cargas de trabajo en nuevo hardware
+
+Si ha enviado registros de AutoSupport a NetApp en los últimos 90 días, NetApp puede proporcionar una simulación para ver cómo funcionan sus cargas de trabajo en hardware nuevo.
+
+Puede incluir o excluir cargas de trabajo específicas de la simulación.  También puede agregar cargas de trabajo si no aparecen en la lista de cargas de trabajo existente.
+
+.Pasos
+. Desde el panel de navegación izquierdo de la consola de NetApp , seleccione *Gobernanza* > *Planificación del ciclo de vida* > *Actualización tecnológica*.
++
+image:tech-refresh-list2.png["Página de actualización técnica que muestra la pestaña de candidatos para la actualización técnica"]
+
+. Consulte la pestaña *Candidatos para actualización tecnológica*, que enumera todos los sistemas que podrían beneficiarse de una actualización tecnológica.
+. Seleccione el sistema en el que desea obtener una evaluación.
+. En la columna Acciones, seleccione *Evaluar actualización*.
++
+
+NOTE: La planificación del ciclo de vida importa detalles de la carga de trabajo en preparación para la simulación.
+
++
+image:tech-refresh-simulation-requirements3.png["Página de simulación de cargas de trabajo que muestra las opciones de requisitos"]
+
+. En la página Simular cargas de trabajo > Requisitos de carga de trabajo, haga lo siguiente:
++
+.. Para agregar una carga de trabajo que no esté en la lista, seleccione *Agregar carga de trabajo*. Para obtener más información, consulte <<Agregar una carga de trabajo>> .
+.. *IOPS*: Opcionalmente, cambie las IOP que desee para su nuevo hardware.
+.. *Capacidad (TiB)*: Opcionalmente, cambie la capacidad que desea para su nuevo hardware.
+
+
+. Para excluir cargas de trabajo, en la columna Acciones, seleccione la opción *Excluir carga de trabajo de la simulación*.
++
+
+TIP: Para incluir cargas de trabajo previamente excluidas, seleccione la pestaña *Cargas de trabajo excluidas* y seleccione la opción *Incluir carga de trabajo en simulación*. .. Seleccione *Siguiente*.
+
+. Revise los resultados simulados en el nuevo hardware en la página de Configuración:
++
+image:tech-refresh-simulation-results2.png["Página de simulación de cargas de trabajo que muestra los resultados de la simulación"]
+
++
+
+TIP: Las mejores recomendaciones se marcan con la indicación "Mejor".
+
+. Para descargar un PDF de las recomendaciones, seleccione *Descargar*.
+. Para conectarse con un representante de ventas de NetApp con respecto a las recomendaciones:
++
+.. Seleccione *Contacto*.
+.. Introduzca los datos de contacto.
+.. Agregue notas especiales para el representante de ventas de NetApp .
+.. Seleccione *Confirmar y enviar*.
+
+
+. Seleccione *Finalizar*.
+
+
+.Resultado
+Las recomendaciones de la simulación de carga de trabajo se envían a un representante de ventas de NetApp .  También recibirás un correo electrónico confirmando las recomendaciones.  Un representante de ventas de NetApp responderá a su solicitud.
+
+
+
+== Agregar una carga de trabajo
+
+Puede agregar una carga de trabajo que no esté ya incluida en la simulación de carga de trabajo.
+
+.Pasos
+. link:../get-started/capacity-login.html["Inicie sesión en la consola de NetApp"] .
+. Seleccione *Actualización técnica*.
++
+image:tech-refresh-list2.png["Página de actualización técnica que muestra la pestaña de candidatos para la actualización técnica"]
+
+. Seleccione el sistema.
+. En la columna Acciones, seleccione *Evaluar actualización*.
++
+image:tech-refresh-simulation-requirements3.png["Página de simulación de cargas de trabajo que muestra las opciones de requisitos"]
+
+. En la página Simular cargas de trabajo > Requisitos de carga de trabajo, seleccione *Agregar carga de trabajo*.
++
+image:tech-refresh-workload-add2.png["Agregar página de carga de trabajo"]
+
+. Seleccione la aplicación, ingrese un nombre de carga de trabajo y seleccione un tamaño de carga de trabajo.
+. Introduzca los valores de capacidad y rendimiento esperados de la carga de trabajo.
++
+
+NOTE: Si elige el tamaño de la carga de trabajo como pequeño, típico o que requiere mucho esfuerzo de E/S, aparecerán los valores predeterminados.
+
+. Opcionalmente, seleccione la flecha Opciones avanzadas y cambie los valores predeterminados para la siguiente información:
++
+** *Eficiencia de almacenamiento*: una relación típica de reducción de datos podría ser de 2 a 1.
+** *Lecturas aleatorias %*: un tamaño de E/S promedio típico para una lectura aleatoria es 16K.
+** *Lecturas secuenciales %*: un patrón de lectura típico es 50% aleatorio y 50% secuencial.
+** *Escrituras aleatorias %*: un tamaño de E/S promedio típico para una escritura aleatoria es 32K.
+** *Escrituras secuenciales %*: un patrón de escritura típico es 50% aleatorio y 50% secuencial.
+
+
+
